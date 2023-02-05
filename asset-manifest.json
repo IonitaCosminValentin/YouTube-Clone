@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.4e746bd8.css",
-    "main.js": "/static/js/main.b57b8bce.js",
-    "static/media/Logo.svg": "/static/media/Logo.7c35c6b27f72f5e7d5d99ebb0ffd233b.svg",
-    "static/media/Shorts.svg": "/static/media/Shorts.70e788b41b0228b582c32b03d2a41427.svg",
-    "static/media/LikedVideos.svg": "/static/media/LikedVideos.404061bf49baf732f8087d4034f1d9cc.svg",
-    "static/media/History.svg": "/static/media/History.40d5352942b8be022132885a0bf90155.svg",
-    "index.html": "/index.html",
-    "static/media/WatchLater.svg": "/static/media/WatchLater.fd6197a9d30a9e579290c9f807c7be1e.svg",
-    "static/media/Subscriptions.svg": "/static/media/Subscriptions.ab1721d5aa08eeb7d67542f3c66a07e1.svg",
-    "static/media/Library.svg": "/static/media/Library.048365038faa2d84dad12263715375d7.svg",
-    "static/media/YourVideos.svg": "/static/media/YourVideos.5a90be4a2e298ab8f381bb465e74922e.svg",
-    "static/media/Home.svg": "/static/media/Home.9b9c986a6b2ed3c0d7abf67668c16f74.svg",
-    "main.4e746bd8.css.map": "/static/css/main.4e746bd8.css.map",
-    "main.b57b8bce.js.map": "/static/js/main.b57b8bce.js.map"
+    "main.css": "/YouTube-Clone/static/css/main.4e746bd8.css",
+    "main.js": "/YouTube-Clone/static/js/main.d28dcbef.js",
+    "static/media/Logo.svg": "/YouTube-Clone/static/media/Logo.7c35c6b27f72f5e7d5d99ebb0ffd233b.svg",
+    "static/media/Shorts.svg": "/YouTube-Clone/static/media/Shorts.70e788b41b0228b582c32b03d2a41427.svg",
+    "static/media/LikedVideos.svg": "/YouTube-Clone/static/media/LikedVideos.404061bf49baf732f8087d4034f1d9cc.svg",
+    "static/media/History.svg": "/YouTube-Clone/static/media/History.40d5352942b8be022132885a0bf90155.svg",
+    "index.html": "/YouTube-Clone/index.html",
+    "static/media/WatchLater.svg": "/YouTube-Clone/static/media/WatchLater.fd6197a9d30a9e579290c9f807c7be1e.svg",
+    "static/media/Subscriptions.svg": "/YouTube-Clone/static/media/Subscriptions.ab1721d5aa08eeb7d67542f3c66a07e1.svg",
+    "static/media/Library.svg": "/YouTube-Clone/static/media/Library.048365038faa2d84dad12263715375d7.svg",
+    "static/media/YourVideos.svg": "/YouTube-Clone/static/media/YourVideos.5a90be4a2e298ab8f381bb465e74922e.svg",
+    "static/media/Home.svg": "/YouTube-Clone/static/media/Home.9b9c986a6b2ed3c0d7abf67668c16f74.svg",
+    "main.4e746bd8.css.map": "/YouTube-Clone/static/css/main.4e746bd8.css.map",
+    "main.d28dcbef.js.map": "/YouTube-Clone/static/js/main.d28dcbef.js.map"
   },
   "entrypoints": [
     "static/css/main.4e746bd8.css",
-    "static/js/main.b57b8bce.js"
+    "static/js/main.d28dcbef.js"
   ]
 }
