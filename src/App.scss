@@ -144,12 +144,13 @@ $hover-color-dark: #3a3a3a;
   flex-direction: column;
 
   .highlight {
-    width: 100%;
-    margin-left: 10px;
+    width: 90%;
+    padding-left: 5%;
+    margin-left: 2.5%;
+    align-items: center;
 
     height: 45px;
     display: flex;
-    align-items: center;
 
     img {
       height: 55%;
@@ -168,7 +169,7 @@ $hover-color-dark: #3a3a3a;
   }
   .line {
     height: 2px;
-    width: 98%;
+    width: 90%;
     margin: 5%;
     background-color: $highlight-color;
   }
@@ -304,12 +305,12 @@ $hover-color-dark: #3a3a3a;
     .line {
       background-color: $hover-color-dark;
     }
-  }
-  .side-bar .invert img {
-    filter: invert(100%);
-  }
-  .side-bar .home img {
-    filter: invert(100%);
+    .invert img {
+      filter: invert(100%);
+    }
+    .home img {
+      filter: invert(100%);
+    }
   }
 
   .logo {
@@ -318,5 +319,58 @@ $hover-color-dark: #3a3a3a;
 
   .closed img {
     filter: invert(100%);
+  }
+}
+
+@media only screen and (max-width: 1230px) {
+  .closed {
+    margin-left: 2.5%;
+  }
+  .search-bar {
+    .right-side {
+      width: 20%;
+    }
+    .search-form {
+      width: 50%;
+      padding: 0;
+      .mic {
+        height: 90%;
+      }
+      button {
+        width: 20%;
+      }
+    }
+  }
+  .body-container {
+    .side-bar {
+      width: 25%;
+      height: 100%;
+
+      position: absolute;
+      top: 3%;
+      background-color: white;
+      box-shadow: 20px 30px 50px black;
+
+      .subscription {
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+      }
+    }
+
+    .body {
+      grid-template-columns: 30% 30% 30%;
+    }
+  }
+  .Dark {
+    .side-bar {
+      background-color: $background;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .body-container {
+    .body {
+      grid-template-columns: 40% 40%;
+    }
   }
 }

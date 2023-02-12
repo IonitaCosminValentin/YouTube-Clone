@@ -80,8 +80,8 @@ const addVideos = (videos: Video[]): void => {
 }
 
 const toggleDarkMode = (): void => {
-  let app = document.querySelector('.App')
-  app?.classList.toggle('Dark')
+  let html = document.querySelector('html')
+  html?.classList.toggle('Dark')
 }
 function App () {
   useEffect(() => {
