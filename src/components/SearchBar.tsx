@@ -33,12 +33,12 @@ function SearchBar ({
       </div>
       <div className='right-side'>
         <span
-          className='container'
+          className='container moon-container'
           onClick={() => {
             darkMode()
           }}
         >
-          <BsMoon className='icons' />
+          <BsMoon className='icons ' />
         </span>
         <span className='container'>
           <AiOutlineVideoCameraAdd className='icons' />
@@ -46,7 +46,7 @@ function SearchBar ({
         <span className='container'>
           <BsBell className='icons' />
         </span>
-        <span className='container'>
+        <span className='container user-container'>
           <IoPersonCircleSharp className='icons user' />
         </span>
       </div>
