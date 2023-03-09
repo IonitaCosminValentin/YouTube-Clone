@@ -247,25 +247,29 @@ $hover-color-dark: #3a3a3a;
       border-radius: 10px;
       min-width: 13%;
     }
+
+    p {
+      font-size: 16px;
+    }
     .wrap-div {
-      width: 90%;
-      height: 70px;
+      height: 50px;
+      margin-top: 10px;
 
       display: flex;
       flex-direction: row;
       align-items: center;
 
-      p {
-        font-size: 15px;
-        font-weight: 500;
-      }
-
       img {
         border-radius: 100%;
-        width: 15%;
+        width: 12%;
         margin-right: 10px;
         min-width: 30px;
       }
+    }
+    span {
+      width: 100%;
+      padding-left: 25%;
+      color: rgb(100, 100, 100);
     }
   }
 }
@@ -323,7 +327,26 @@ $hover-color-dark: #3a3a3a;
     filter: invert(100%);
   }
 }
+.bottom-nav {
+  display: none;
 
+  background-color: white;
+  height: 7%;
+  width: 100vw;
+
+  position: fixed;
+  top: 93%;
+  justify-content: space-evenly;
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  img {
+    width: 30px;
+  }
+}
 @media only screen and (max-width: 1230px) {
   .closed {
     margin-left: 2.5%;
@@ -358,6 +381,9 @@ $hover-color-dark: #3a3a3a;
         scroll-behavior: smooth;
       }
     }
+    .video-container {
+      margin-top: 10px;
+    }
 
     .body {
       grid-template-columns: 30% 30% 30%;
@@ -371,6 +397,14 @@ $hover-color-dark: #3a3a3a;
 }
 @media only screen and (max-width: 768px) {
   .body-container {
+    overflow-x: hidden;
+    .bottom-nav {
+      display: flex;
+    }
+
+    .side-bar {
+      display: none;
+    }
     .body {
       grid-template-columns: 90%;
     }
@@ -379,11 +413,14 @@ $hover-color-dark: #3a3a3a;
     .mic {
       display: none;
     }
-    .left-side .logo {
-      margin: 0px;
-      margin-right: 10px;
+    .left-side {
+      .hamburger-container {
+        display: none;
+      }
+      .logo {
+        margin: 0 10px 0;
+      }
     }
-
     .right-side {
       .container {
         display: none;
@@ -400,27 +437,5 @@ $hover-color-dark: #3a3a3a;
     min-width: 30% !important;
     background-color: red;
     box-shadow: none !important;
-  }
-}
-
-@media only screen and (max-width: 512px) {
-  .side-bar {
-    min-width: 50% !important;
-  }
-  .search-bar .search-form {
-    justify-content: flex-end;
-    input {
-      display: none;
-    }
-    button {
-      background-color: transparent !important;
-      border: none;
-      font-size: 15px;
-      padding-top: 10px;
-    }
-    button:hover {
-      outline: none;
-      cursor: pointer;
-    }
   }
 }
