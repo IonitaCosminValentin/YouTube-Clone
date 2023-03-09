@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/YouTube-Clone/static/css/main.e4a081e8.css",
-    "main.js": "/YouTube-Clone/static/js/main.c532bc71.js",
+    "main.css": "/YouTube-Clone/static/css/main.5fd7730a.css",
+    "main.js": "/YouTube-Clone/static/js/main.62c22c0c.js",
     "static/media/Logo.svg": "/YouTube-Clone/static/media/Logo.7c35c6b27f72f5e7d5d99ebb0ffd233b.svg",
     "static/media/Shorts.svg": "/YouTube-Clone/static/media/Shorts.70e788b41b0228b582c32b03d2a41427.svg",
     "static/media/LikedVideos.svg": "/YouTube-Clone/static/media/LikedVideos.404061bf49baf732f8087d4034f1d9cc.svg",
@@ -12,11 +12,11 @@
     "static/media/Library.svg": "/YouTube-Clone/static/media/Library.048365038faa2d84dad12263715375d7.svg",
     "static/media/YourVideos.svg": "/YouTube-Clone/static/media/YourVideos.5a90be4a2e298ab8f381bb465e74922e.svg",
     "static/media/Home.svg": "/YouTube-Clone/static/media/Home.9b9c986a6b2ed3c0d7abf67668c16f74.svg",
-    "main.e4a081e8.css.map": "/YouTube-Clone/static/css/main.e4a081e8.css.map",
-    "main.c532bc71.js.map": "/YouTube-Clone/static/js/main.c532bc71.js.map"
+    "main.5fd7730a.css.map": "/YouTube-Clone/static/css/main.5fd7730a.css.map",
+    "main.62c22c0c.js.map": "/YouTube-Clone/static/js/main.62c22c0c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4a081e8.css",
-    "static/js/main.c532bc71.js"
+    "static/css/main.5fd7730a.css",
+    "static/js/main.62c22c0c.js"
   ]
 }
